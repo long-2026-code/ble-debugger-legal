@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BLE 调试助手</title>
+<style>
+  :root { --fg:#1d1d1f; --muted:#6e6e73; --line:#e5e5ea; --accent:#0a84ff; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Helvetica Neue",Arial,sans-serif;
+    line-height:1.7; -webkit-text-size-adjust:100%;
+    display:flex; align-items:center; justify-content:center; min-height:100vh;
+  }
+  .wrap { max-width:560px; padding:48px 24px; text-align:center; }
+  h1 { font-size:32px; margin:0 0 12px; letter-spacing:-.02em; }
+  p.lead { color:var(--muted); font-size:16px; margin:0 0 40px; }
+  .links { display:grid; gap:12px; }
+  a.btn {
+    display:block; padding:16px 20px; border-radius:14px;
+    border:1px solid var(--line); background:#fafafa;
+    color:var(--fg); text-decoration:none; font-size:16px; font-weight:600;
+    transition:background .15s ease, border-color .15s ease;
+  }
+  a.btn:hover { background:#f0f0f5; border-color:#d0d0d8; }
+  a.btn span { display:block; font-weight:400; font-size:14px; color:var(--muted); margin-top:4px; }
+  footer { margin-top:40px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>BLE 调试助手</h1>
+  <p class="lead">面向开发者的低功耗蓝牙串口调试工具<br>支持 ESP32 / ESP32-S3 等 BLE 设备</p>
+
+  <div class="links">
+    <a class="btn" href="./support.html">技术支持<span>常见问题与联系方式</span></a>
+    <a class="btn" href="./privacy.html">隐私政策<span>本应用不收集任何数据</span></a>
+  </div>
+
+  <footer>© 2026 BLE 调试助手</footer>
+</div>
+</body>
+</html>
